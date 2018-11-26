@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKLib'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '黑卡业务库'
 
   s.description      = <<-DESC

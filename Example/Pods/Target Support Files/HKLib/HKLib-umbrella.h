@@ -20,6 +20,7 @@
 #import "HKPromptViewDefines.h"
 #import "HKPromptView.h"
 #import "HKPromptViewProtocol.h"
+#import "HKLibTools.h"
 #import "NSString+JCRegexHelper.h"
 
 FOUNDATION_EXPORT double HKLibVersionNumber;

@@ -22,7 +22,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    NSLog(@"---------- ");
-    HK_TipAlert(@"%@", @"警告框");
+    [HKLibTools hk_showSettingTitle:@"设置title"];
+//    [[[UIAlertView alloc] initWithTitle:@"title" message:nil delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] show];
+//    HK_TipAlert(@"%@", @"警告框");
 //    [HKPromptView showAlertTitle:@"警告框" message:nil cancelTitle:@"确定" cancelBlock:nil];
 }
 
