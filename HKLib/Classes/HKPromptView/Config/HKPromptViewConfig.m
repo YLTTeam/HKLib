@@ -23,6 +23,7 @@
         self.animationWhenShowAndHide = YES;
         self.contentAlignment = NSTextAlignmentLeft;
         self.contentBackgroundColor = [UIColor whiteColor];
+        self.contentCornerRadius = 2;
         self.backgroundColor = YLT_HEXCOLORA(0x000000, 0.5);
         
         self.buttonTitleFont = [UIFont ylt_regularFont:14];

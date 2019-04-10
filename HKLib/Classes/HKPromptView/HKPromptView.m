@@ -323,8 +323,11 @@
     if (!_centerAreaView) {
         _centerAreaView = [[UIView alloc]init];
         _centerAreaView.backgroundColor = self.config.contentBackgroundColor;
-        _centerAreaView.layer.cornerRadius = 2;
         _centerAreaView.alpha = 0;
+        if (self.config.contentCornerRadius > 0) {
+            _centerAreaView.layer.cornerRadius = self.config.contentCornerRadius;
+            _centerAreaView.layer.masksToBounds = YES;
+        }
     }
     return _centerAreaView;
 }
