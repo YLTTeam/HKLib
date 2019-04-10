@@ -37,6 +37,8 @@ typedef enum : NSUInteger {
 @property (nonatomic, strong) UIColor *backgroundColor;
 /** 内容背景色，默认白色 **/
 @property (nonatomic, strong) UIColor *contentBackgroundColor;
+/** 内容区域圆角, 默认2 **/
+@property (nonatomic, assign) CGFloat contentCornerRadius;
 
 #pragma mark - 标题相关
 

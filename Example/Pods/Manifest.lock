@@ -19,7 +19,7 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - HKLib (0.0.1):
+  - HKLib (0.0.3):
     - pop
     - TTTAttributedLabel
     - YLT_Kit
@@ -76,7 +76,7 @@ SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   FastCoding: 3b590f7143a229780fa744b35084d85d9461587e
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  HKLib: 82ab0662ffbf6c27457164898edabb7c91958bea
+  HKLib: 21446a631822f011053089c23cb452c48c44435c
   LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
