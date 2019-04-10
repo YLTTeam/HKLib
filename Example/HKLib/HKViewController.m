@@ -15,8 +15,7 @@
 
 @implementation HKViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 }
 
